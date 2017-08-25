@@ -196,7 +196,7 @@ To filter specific log types, such as HTTP, use the **--Path** parameter. For ex
 
 ## <a name="understandlogs"></a> How to: Understand diagnostics logs
 ### Application diagnostics logs
-Application diagnostics stores information in a specific format for .NET applications, depending on whether you store logs to the file system, table storage, or blob storage. The base set of data stored is the same across all three storage types - the date and time the event occurred, the process ID that produced the event, the event type (information, warning, error,) and the event message.
+Application diagnostics stores information in a specific format for .NET applications, depending on whether you store logs to the file system, table storage, or blob storage. The base set of data stored is the same across all three storage types - the date and time the event occurred, the process ID that produced the event, the event type (information, warning, error), and the event message.
 
 **File system**
 
